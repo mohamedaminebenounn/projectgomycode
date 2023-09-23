@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color:rgb(52, 38, 114);
+    min-height: 100vh;
+    width: 98%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.logo{
+    width: 40%;
+}
+
+ul li {
+    display: inline-block;
+}
+ul li a {
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.menu{
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+   border-radius: 10px;
+    margin-left: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: 1;
+    background-color: rgb(83, 117, 180);
+}
+.menu li {
+    display: flex;
+    padding: 10px;
+}
+.container ul li:hover > .menu  {
+    display: block;
+  }
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+   
+    margin-bottom: 100px;
+}
+.content .text{
+    width: 40%;
+    color: white;
+}
+.content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content .text a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.content .photo{
+    width: 30%;
+
+}
+.content .photo img{
+    width: 180px;
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.icons img:hover{
+    transform: scale(1.2);
+}
+
+.section{
+    display: flex;
+}
+section.img{
+   height: 2000px;
+}
+.section h3{
+    display: block;
+}
+.guide{
+    position: absolute;
+    top: 90%;
+    z-index: 2;
+    height: 100%;
+}
+.text{
+    text-align: left;
+    padding-top: 300px;
+    padding-left: 220px;
+}
+.guided-tours-triggers{
+    margin-top: 30px;
+    margin-left: 220px;
+    background-color: beige;
+    width: 120px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.guided-tours-triggers a{
+    text-decoration: none;
+    color: black;
+}
+.text1{
+    color: white;
+    display: block;
+    font-size: 24px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.text2{
+    color: white;
+    display: block;
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+}
+
+.background-container .tour-guide {
+    width: 1300px;
+    height: 814px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/iphone/home/bo/images/overview/subhero/guided_tour__c40f88on9o8y_large.jpg);
+    background-position: bottom;
+    display: block;
+    margin: 10px;
+    
+}
